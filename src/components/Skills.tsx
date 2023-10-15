@@ -2,10 +2,10 @@ import { skills } from "../data/skills";
 
 const Skills = () => {
   return (
-    <div className="grid grid-cols-4 gap-5 my-[4rem] relative ">
+    <section className="grid grid-cols-4 gap-5 my-[4rem] relative ">
       {skills.map((skill) => (
         <div key={skill.name} className="">
-          <h2 className="text-4xl font-bold">{skill.name}</h2>
+          <p className="text-4xl font-bold">{skill.name}</p>
         </div>
       ))}
       <div
@@ -18,7 +18,7 @@ const Skills = () => {
           className="translate-x-[12rem]  "
         />
       </div>
-    </div>
+    </section>
   );
 };
 

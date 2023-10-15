@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="flex justify-between border-b-2 border-solid border-text-color">
+    <section className="flex justify-between border-b-2 border-solid border-text-color">
       <div id="left">
         <div className="relative left-[0] -translate-x-[20rem] translate-y-[2rem]  mt-4 opacity-[80%]">
           <img
@@ -36,7 +36,7 @@ const Hero = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

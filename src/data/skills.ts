@@ -1,9 +1,9 @@
-interface Skills {
+interface SkillTypes {
   name: string;
   id: number;
 }
 
-export const skills: Skills[] = [
+export const skills: SkillTypes[] = [
   {
     name: "React",
     id: 1,
