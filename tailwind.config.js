@@ -1,8 +1,19 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,tsx,}"],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    fontFamily: {
+      grotesk: ["Space Grotesk", "sans-serif"],
+    },
+    extend: {
+      colors: {
+        primary: "#151515",
+        accent: "#4EE1A0",
+        secondary: "#242424",
+        "text-color": "#d9d9d9",
+        "header-color": "#FFFFFF",
+      },
+    },
   },
   plugins: [],
-}
+};
