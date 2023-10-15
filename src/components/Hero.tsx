@@ -1,14 +1,14 @@
 const Hero = () => {
   return (
-    <div className="flex justify-between">
+    <div className="flex justify-between border-b-2 border-solid border-text-color">
       <div id="left">
-        <div className="relative left-[0] -translate-x-[20rem] translate-y-[2rem] w-[50rem] mt-4 opacity-[80%]">
+        <div className="relative left-[0] -translate-x-[20rem] translate-y-[2rem]  mt-4 opacity-[80%]">
           <img
             src="../src/assets/images/pattern-rings.svg"
             alt="pattern-rings"
           />
         </div>
-        <h1 className="text-7xl text-header-color font-bold w-[17ch] tracking-wide leading-[4rem]">
+        <h1 className="text-7xl text-header-color font-bold w-[17ch] tracking-wide leading-[5rem]">
           Hi nice to meet you! {""}
           <span className="border-b-4 border-solid border-accent">
             I'm Cj Francisco.
