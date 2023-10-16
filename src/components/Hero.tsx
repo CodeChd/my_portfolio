@@ -1,38 +1,47 @@
 const Hero = () => {
   return (
-    <section className="flex justify-between border-b-2 border-solid border-text-color">
-      <div id="left">
-        <div className="relative left-[0] -translate-x-[20rem] translate-y-[2rem]  mt-4 opacity-[80%]">
+    <section className="flex max-lg:flex-col max-lg:items-center justify-between border-b-2 border-solid border-text-color relative">
+      <div
+        id="left"
+        className="max-md:mb-[10rem] max-lg:text-center max-lg:mb-[18rem] mb-[20rem] max-lg:order-2"
+      >
+        <div className="relative max-lg:absolute max-lg:top-[0] left-[0] -translate-x-[20rem] translate-y-[2rem] ">
           <img
             src="../src/assets/images/pattern-rings.svg"
             alt="pattern-rings"
+            className="max-lg:w-[35rem] h-full"
           />
         </div>
-        <h1 className="text-7xl text-header-color font-bold w-[17ch] tracking-wide leading-[5rem]">
+        <h1 className="max-md:text-5xl text-7xl text-header-color font-bold w-[40vw] xl:max-w-[40vw] max-lg:w-full tracking-wide leading-[5rem]">
           Hi nice to meet you! {""}
           <span className="border-b-4 border-solid border-accent">
             I'm Cj Francisco.
           </span>
         </h1>
-        <p className="text-xl w-[50ch] mt-[2rem]">
+        <p className="text-lg max-lg:w-full  w-[40vw] mt-[2rem]">
           Cj is a self-taught full-stack developer based in the Philippines,
           specializes in creating dynamic and user-friendly websites, constantly
           refining his skills through exploration and challenges
         </p>
-        <p className="text-xl mt-[3rem]">
-          <span className=" w-100 text-header-color border-b-2 border-solid border-accent">
+        <p className="text-lg mt-[3rem] pb-8 ">
+          <span className=" w-full text-header-color border-b-2 border-solid border-accent">
             CONTACT ME
           </span>
         </p>
       </div>
-      <div className="right -z-10 p-0 relative">
-        <div className="w-[33vw] relative top-0 right-0 -translate-y-[6rem] rounded-md overflow-hidden ">
-          <img src="/profile.png" alt="profile" />
+      <div className="-z-10 relative max-lg:order-1 ">
+        <div className="max-md:w-[20rem] w-[38rem] max-xl:w-[35rem] absolute max-lg:relative top-0 right-0 -translate-y-[6rem] max-lg:-translate-y-[8rem]  rounded-md overflow-hidden ">
+          <img
+            src="/profile-tablet.png"
+            alt="profile"
+            className="relative  w-full h-full object-cover"
+          />
         </div>
-        <div className="absolute bottom-0 -translate-y-[90%] -left-[4rem] opacity-[80%]">
+        <div className="relative max-lg:overflow-hidden">
           <img
             src="../src/assets/images/pattern-circle.svg"
             alt="pattern-circle"
+            className="relative w-[8rem] xl:-bottom-[39rem] xl:right-[35rem] max-xl:-bottom-[35rem] max-xl:right-[30rem]  max-lg:absolute max-lg:top-0 max-lg:-right-[10rem]"
           />
         </div>
       </div>

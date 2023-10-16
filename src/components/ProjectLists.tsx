@@ -14,7 +14,7 @@ const ProjectLists = ({ projects }: Props) => {
           className=" w-full h-full "
         />
         <span className="absolute bg-primary/0 hover:bg-primary/60 inset-0">
-          <div className="group text-3xl text-header-color font-medium mt-3 gap-8 flex flex-col justify-center  w-full h-full ">
+          <div className="group text-3xl text-header-color font-semibold mt-3 gap-8 flex flex-col justify-center  w-full h-full ">
             <button className="my-6 opacity-0 group-hover:opacity-100">
               <span className="border-b-2 border-solid border-accent">
                 LIVE DEMO

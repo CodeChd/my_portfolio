@@ -1,11 +1,12 @@
 const Header = () => {
   return (
     <header className=" text-header-color py-6 z-100">
-      <div className="flex justify-between">
-        <div className="logo">
-          <h2 className="text-4xl font-medium ">cj</h2>
+      <div className="flex max-lg:flex-col max-lg:items-center  justify-between ">
+        <div className="logo ">
+          <h2 className="text-4xl font-medium mb-4">cj</h2>
         </div>
-        <nav className="px-4">
+
+        <nav className="px-4 ">
           <ul className="flex gap-8">
             <li>
               <img src="../src/assets/images/icon-github.svg" alt="github" />
