@@ -13,7 +13,7 @@ const Skills = () => {
         style={{ width: "calc(100vw - 3vw - 70vw)" }}
       >
         <img
-          src="../src/assets/images/pattern-rings.svg"
+          src="/images/pattern-rings.svg"
           alt="pattern-rings"
           className="translate-x-[12rem]  "
         />

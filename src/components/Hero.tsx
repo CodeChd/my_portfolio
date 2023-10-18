@@ -7,7 +7,7 @@ const Hero = () => {
       >
         <div className="relative max-lg:absolute max-lg:top-[0] left-[0] -translate-x-[20rem] translate-y-[2rem] ">
           <img
-            src="../src/assets/images/pattern-rings.svg"
+            src="/images/pattern-rings.svg"
             alt="pattern-rings"
             className="max-lg:w-[35rem] h-full"
           />
@@ -39,7 +39,7 @@ const Hero = () => {
         </div>
         <div className="relative max-lg:overflow-hidden">
           <img
-            src="../src/assets/images/pattern-circle.svg"
+            src="/images/pattern-circle.svg"
             alt="pattern-circle"
             className="relative w-[8rem] xl:-bottom-[39rem] xl:right-[35rem] max-xl:-bottom-[35rem] max-xl:right-[30rem]  max-lg:absolute max-lg:top-0 max-lg:-right-[10rem]"
           />

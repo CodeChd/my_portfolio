@@ -9,22 +9,22 @@ const Header = () => {
         <nav className="px-4 ">
           <ul className="flex gap-8">
             <li>
-              <img src="../src/assets/images/icon-github.svg" alt="github" />
+              <img src="/images/icon-github.svg" alt="github" />
             </li>
             <li>
               <img
-                src="../src/assets/images/icon-frontend-mentor.svg"
+                src="/images/icon-frontend-mentor.svg"
                 alt="frontendMentor"
               />
             </li>
             <li>
               <img
-                src="../src/assets/images/icon-linkedin.svg"
+                src="/images/icon-linkedin.svg"
                 alt="linkedin"
               />
             </li>
             <li>
-              <img src="../src/assets/images/icon-twitter.svg" alt="twitter" />
+              <img src="/images/icon-twitter.svg" alt="twitter" />
             </li>
           </ul>
         </nav>
