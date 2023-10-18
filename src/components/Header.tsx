@@ -1,7 +1,7 @@
 const Header = () => {
   return (
     <header className=" text-header-color z-100">
-      <div className="flex max-lg:flex-col max-lg:items-center   justify-between ">
+      <div className="flex max-lg:flex-col max-lg:items-center  xl:py-6 justify-between ">
         <div className="logo  ">
           <h2 className="text-4xl font-medium max-md:mb-2 mb-4">cj</h2>
         </div>
@@ -18,10 +18,7 @@ const Header = () => {
               />
             </li>
             <li>
-              <img
-                src="/images/icon-linkedin.svg"
-                alt="linkedin"
-              />
+              <img src="/images/icon-linkedin.svg" alt="linkedin" />
             </li>
             <li>
               <img src="/images/icon-twitter.svg" alt="twitter" />

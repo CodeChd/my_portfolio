@@ -33,7 +33,7 @@ const Hero = () => {
         </p>
       </div>
       <div className="-z-10 relative max-lg:order-1 max-lg:flex-grow">
-        <div className="max-md:w-[20rem] w-[38rem] max-xl:w-[35rem] absolute max-lg:relative top-0 right-0 -translate-y-[6rem]   rounded-md overflow-hidden ">
+        <div className="max-md:w-[20rem] w-[38rem] max-xl:w-[35rem] absolute max-lg:relative top-0 right-0 -translate-y-[6.5rem]   rounded-md overflow-hidden ">
           <img
             src="/profile-tablet.png"
             alt="profile"
