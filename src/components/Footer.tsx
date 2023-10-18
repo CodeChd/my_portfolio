@@ -1,17 +1,18 @@
 const Footer = () => {
   return (
     <footer className="bg-secondary font-grotesk">
-      <section className="py-[4rem] max-w-[80vw] mx-auto flex max-lg:flex-col justify-between border-b-2 border-solid border-text-color">
+      <section className="py-[4rem] max-w-[80vw] mx-auto flex max-lg:flex-col justify-between border-b-2 border-solid border-text-color relative">
         <div className="">
           <h2 className="text-7xl font-bold">Contact</h2>
           <p className="text-xl mt-8 max-lg:w-full w-[45ch]">
             I would love to hear about your project and how I could help. Please
             fill in the form, and I’ll get back to you as soon as possible.
           </p>
-          <div className="relative left-[0] -translate-x-[20rem] translate-y-[2rem]  mt-4 opacity-[80%]">
+          <div className="relative max-lg:absolute max-lg:bottom-[6rem] left-[0] -translate-x-[20rem] translate-y-[2rem]  mt-4 ">
             <img
               src="../src/assets/images/pattern-rings.svg"
               alt="pattern-rings"
+              className="w-full h-full"
             />
           </div>
         </div>
