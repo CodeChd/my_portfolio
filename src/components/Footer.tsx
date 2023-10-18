@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className="bg-secondary font-grotesk">
+    <footer className="bg-secondary font-grotesk" id="footer">
       <section className="py-[4rem] max-w-[80vw] mx-auto flex max-lg:flex-col justify-between border-b-2 border-solid border-text-color relative">
         <div className="">
           <h2 className="text-7xl font-bold">Contact</h2>
@@ -57,10 +57,7 @@ const Footer = () => {
               />
             </li>
             <li>
-              <img
-                src="/images/icon-linkedin.svg"
-                alt="linkedin"
-              />
+              <img src="/images/icon-linkedin.svg" alt="linkedin" />
             </li>
             <li>
               <img src="/images/icon-twitter.svg" alt="twitter" />

@@ -7,7 +7,7 @@ import Skills from "./components/Skills";
 function App() {
   return (
     <>
-      <main className="max-xl:max-w-[90vw]  max-w-[80vw] mx-auto font-grotesk relative">
+      <main className="max-xl:max-w-[90vw]  max-w-[80vw] mx-auto font-grotesk relative ">
         <Header />
         <Hero />
         <Skills />

@@ -3,7 +3,7 @@ const Hero = () => {
     <section className="flex max-lg:flex-col max-lg:items-center justify-between border-b-2 border-solid border-text-color relative">
       <div
         id="left"
-        className="max-md:mb-[10rem] max-lg:text-center max-lg:mb-[18rem] mb-[20rem] max-lg:order-2"
+        className="max-md:mb-[10rem] max-lg:text-center max-lg:mb-[18rem] mb-[20rem] max-lg:order-2 h-full" 
       >
         <div className="relative max-lg:absolute max-lg:top-[0] left-[0] -translate-x-[20rem] translate-y-[2rem] ">
           <img
@@ -12,7 +12,7 @@ const Hero = () => {
             className="max-lg:w-[35rem] h-full"
           />
         </div>
-        <h1 className="max-md:text-5xl text-7xl text-header-color font-bold w-[40vw] xl:max-w-[40vw] max-lg:w-full tracking-wide leading-[5rem]">
+        <h1 className="max-md:text-4xl text-7xl text-header-color font-bold w-[40vw] xl:max-w-[40vw] max-lg:w-full tracking-wide leading-[5rem] p-0 h-full">
           Hi nice to meet you! {""}
           <span className="border-b-4 border-solid border-accent">
             I'm Cj Francisco.
@@ -24,13 +24,16 @@ const Hero = () => {
           refining his skills through exploration and challenges
         </p>
         <p className="text-lg mt-[3rem] pb-8 ">
-          <span className=" w-full text-header-color border-b-2 border-solid border-accent">
+          <a
+            href="#footer"
+            className=" w-full text-header-color border-b-2 border-solid border-accent"
+          >
             CONTACT ME
-          </span>
+          </a>
         </p>
       </div>
-      <div className="-z-10 relative max-lg:order-1 ">
-        <div className="max-md:w-[20rem] w-[38rem] max-xl:w-[35rem] absolute max-lg:relative top-0 right-0 -translate-y-[6rem] max-lg:-translate-y-[8rem]  rounded-md overflow-hidden ">
+      <div className="-z-10 relative max-lg:order-1 max-lg:flex-grow">
+        <div className="max-md:w-[20rem] w-[38rem] max-xl:w-[35rem] absolute max-lg:relative top-0 right-0 -translate-y-[6rem]   rounded-md overflow-hidden ">
           <img
             src="/profile-tablet.png"
             alt="profile"

@@ -9,9 +9,9 @@ const Project = () => {
           Projects
         </h2>
         <p className="max-md:text-lg text-xl max-md:mt-4 mt-[3rem]">
-          <span className=" text-header-color border-b-2 border-solid border-accent">
+          <a href="#footer" className=" text-header-color border-b-2 border-solid border-accent">
             CONTACT ME
-          </span>
+          </a>
         </p>
       </div>
 
@@ -19,6 +19,7 @@ const Project = () => {
         {projects.map((projects) => (
           <ProjectLists key={projects.id} projects={projects} />
         ))}
+       
       </div>
     </section>
   );
