@@ -1,9 +1,9 @@
 const Hero = () => {
   return (
-    <section className="flex max-lg:flex-col max-lg:items-center justify-between border-b-2 border-solid border-text-color relative">
+    <section className="flex max-lg:flex-col max-lg:items-center justify-between border-b-2 border-solid border-text-color relative ">
       <div
         id="left"
-        className="max-md:mb-[10rem] max-lg:text-center max-lg:mb-[18rem] mb-[20rem] max-lg:order-2 h-full" 
+        className="max-md:mb-[10rem] max-lg:text-center max-lg:mb-[18rem] mb-[20rem] max-lg:order-2 h-full"
       >
         <div className="relative max-lg:absolute max-lg:top-[0] left-[0] -translate-x-[20rem] translate-y-[2rem] ">
           <img

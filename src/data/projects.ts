@@ -29,7 +29,7 @@ export const projects: ProjectTypes[] = [
     image: "/images/pokedex.png",
     name: "POKEDEX",
     technologies: "MongoDb Express React Node etc...",
-    live: "https://github.com/CodeChd/pokedex",
+    live: "https://pokedex-vjet.onrender.com",
     code: "https://github.com/CodeChd/pokedex",
   },
   {
@@ -57,5 +57,3 @@ export const projects: ProjectTypes[] = [
     code: "https://github.com/CodeChd/what-i-learn",
   },
 ];
-
-

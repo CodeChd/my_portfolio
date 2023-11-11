@@ -19,6 +19,7 @@ const ProjectLists = ({ projects }: Props) => {
               <a
                 className="border-b-2 border-solid border-accent"
                 href={projects.live}
+                target="_blank"
               >
                 LIVE DEMO
               </a>
@@ -27,6 +28,7 @@ const ProjectLists = ({ projects }: Props) => {
               <a
                 className="border-b-2 border-solid border-accent"
                 href={projects.code}
+                target="_blank"
               >
                 VIEW CODE
               </a>

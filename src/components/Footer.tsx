@@ -3,8 +3,8 @@ const Footer = () => {
     <footer className="bg-secondary font-grotesk" id="footer">
       <section className="py-[4rem] max-w-[80vw] mx-auto flex max-lg:flex-col justify-between border-b-2 border-solid border-text-color relative">
         <div className="">
-          <h2 className="text-7xl font-bold">Contact</h2>
-          <p className="text-xl mt-8 max-lg:w-full w-[45ch]">
+          <h2 className="max-lg:text-6xl text-7xl font-bold">Contact</h2>
+          <p className="max-lg:text-lg text-xl mt-8 max-lg:w-full w-[45ch]">
             I would love to hear about your project and how I could help. Please
             fill in the form, and I’ll get back to you as soon as possible.
           </p>
