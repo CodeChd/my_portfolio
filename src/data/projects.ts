@@ -45,7 +45,7 @@ export const projects: ProjectTypes[] = [
     image: "/images/jcytf.webp",
     name: "JCYTF CHURCH WEBSITE",
     technologies: "Nextjs Tailwind Cloudinary Php etc...",
-    live: "https://jcytfchurch.vercel.app/about",
+    live: "https://jcytfchurch.vercel.app",
     code: "https://github.com/CodeChd/jcytf-v2",
   },
   {
